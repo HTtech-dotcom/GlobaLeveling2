@@ -2546,3 +2546,25 @@ html[data-theme="light"] .reward-close {
     max-width: 12.5rem;
   }
 }
+/* Manual edit: force larger header logo on mobile */
+.app-brand {
+  min-height: 5rem !important;
+}
+
+.app-brand-logo {
+  height: 4.5rem !important;
+  width: auto !important;
+  max-width: 24rem !important;
+  object-fit: contain !important;
+}
+
+@media (max-width: 520px) {
+  .app-brand {
+    min-height: 5rem !important;
+  }
+
+  .app-brand-logo {
+    height: 4.2rem !important;
+    max-width: 18rem !important;
+  }
+}
