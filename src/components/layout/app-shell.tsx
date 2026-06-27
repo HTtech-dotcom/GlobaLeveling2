@@ -22,7 +22,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <div className="mb-4 flex items-center justify-between">
         <div className="app-brand">
           <img
-            src="/brand/globaleveling-logo.png"
+            src="/public/effects/globaleveling-logo.png"
             alt="GlobaLeveling"
             className="app-brand-logo"
           />
