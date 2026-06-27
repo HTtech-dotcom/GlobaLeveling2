@@ -2518,9 +2518,9 @@ html[data-theme="light"] .reward-close {
 
 .app-brand-logo {
   display: block;
-  height: 4rem;
+  height: 4.2rem;
   width: auto;
-  max-width: 26rem;
+  max-width: 24rem;
   object-fit: contain;
   filter:
     drop-shadow(0 0 10px rgba(55, 183, 255, .28))
