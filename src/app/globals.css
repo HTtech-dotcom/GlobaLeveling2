@@ -2507,3 +2507,42 @@ html[data-theme="light"] .reward-close {
     opacity: .55;
   }
 }
+
+/* Manual edit: header brand logo */
+.app-brand {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  min-width: 0;
+}
+
+.app-brand-logo {
+  display: block;
+  height: 2.8rem;
+  width: auto;
+  max-width: 16rem;
+  object-fit: contain;
+  filter:
+    drop-shadow(0 0 10px rgba(55, 183, 255, .28))
+    drop-shadow(0 0 20px rgba(121, 212, 255, .12));
+}
+
+.app-brand-admin-label {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(121, 212, 255, .26);
+  border-radius: 999px;
+  padding: .22rem .55rem;
+  color: var(--accent-2);
+  background: rgba(55, 183, 255, .08);
+  font-size: .68rem;
+  font-weight: 900;
+  letter-spacing: .14em;
+}
+
+@media (max-width: 520px) {
+  .app-brand-logo {
+    height: 2.35rem;
+    max-width: 12.5rem;
+  }
+}
