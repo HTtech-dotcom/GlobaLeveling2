@@ -8,11 +8,11 @@ export const metadata = {
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [
-      { url: "/effects/globaleveling-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/effects/globaleveling-512.png", sizes: "512x512", type: "image/png" }
+      { url: "/effects/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/effects/icon-512.png", sizes: "512x512", type: "image/png" }
     ],
     apple: [
-      { url: "/effects/globaleveling-192.png", sizes: "192x192", type: "image/png" }
+      { url: "/effects/icon-192.png", sizes: "192x192", type: "image/png" }
     ]
   }
 };
