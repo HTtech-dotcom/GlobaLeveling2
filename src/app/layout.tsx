@@ -1,11 +1,19 @@
-
 import "./globals.css";
 import { AppDataProvider } from "@/components/providers/app-data-provider";
 import { AppShell } from "@/components/layout/app-shell";
 
 export const metadata = {
   title: "GlobaLeveling",
-  description: "Open beta"
+  description: "Open beta",
+  manifest: "/manifest.webmanifest",
+  icons: {
+    icon: [
+      { url: "/effects/globaleveling.png", type: "image/png" }
+    ],
+    apple: [
+      { url: "/effects/globaleveling.png", type: "image/png" }
+    ]
+  }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
