@@ -2518,9 +2518,9 @@ html[data-theme="light"] .reward-close {
 
 .app-brand-logo {
   display: block;
-  height: 4.2rem;
+  height: 4.5rem;
   width: auto;
-  max-width: 24rem;
+  max-width: 26rem;
   object-fit: contain;
   filter:
     drop-shadow(0 0 10px rgba(55, 183, 255, .28))
@@ -2564,7 +2564,7 @@ html[data-theme="light"] .reward-close {
   }
 
   .app-brand-logo {
-    height: 4.2rem !important;
+    height: 4.5rem !important;
     max-width: 18rem !important;
   }
 }
