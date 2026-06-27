@@ -19,7 +19,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <div className={`mx-auto flex min-h-screen w-full ${contentWidthClass} flex-col px-4 pb-6 pt-5`}>
-      <div className="mb-2 flex items-center justify-between">
+      <div className="mb-1 flex items-center justify-between">
         <div className="app-brand">
           <img
             src="/effects/globaleveling-logo.png"
