@@ -20,11 +20,16 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <div className={`mx-auto flex min-h-screen w-full ${contentWidthClass} flex-col px-4 pb-6 pt-5`}>
       <div className="mb-4 flex items-center justify-between">
-        <div>
-          <p className="brand-kicker text-xs uppercase tracking-[0.24em]">{isAdmin ? "ADMIN" : "Web app"}</p>
-          <h1 className="text-2xl font-black" style={{ color: "var(--accent-2)" }}>
-            {isAdmin ? "GlobaLeveling" : "GlobaLeveling"}
-          </h1>
+        <div className="app-brand">
+          <img
+            src="/brand/globaleveling-logo.png"
+            alt="GlobaLeveling"
+            className="app-brand-logo"
+          />
+
+          {isAdmin ? (
+            <span className="app-brand-admin-label">ADMIN</span>
+          ) : null}
         </div>
         <div className="badge">{isAdmin ? "GlobaLeveling" : "OpenBeta"}</div>
       </div>
